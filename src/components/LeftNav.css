@@ -1,0 +1,14 @@
+.leftNav{
+    width: 10rem;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(92,117,117);
+}
+.bottomNavContainer {
+    display: flex; /* หรืออื่น ๆ เช่น grid */
+    flex-direction: column; /* หรือ row ถ้าใช้ flexbox */
+    /* ตั้งค่าอื่น ๆ ตามต้องการ */
+}
