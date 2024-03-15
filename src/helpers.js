@@ -23,7 +23,7 @@ export const Protector = ({ Component }) => {
 
   useEffect(() => {
     if (!jwt) {
-      navigate("/login");
+      navigate("/");
     }
   }, [navigate, jwt]);
 
